@@ -1,6 +1,6 @@
 {
   "id": "Vp3TLXxQm2JzzNLc",
-  "name": "project123-testing-gitpull",
+  "name": "project123-testing",
   "nodes": [
     {
       "parameters": {
@@ -34,26 +34,7 @@
         0
       ],
       "id": "309c3802-f260-4d9e-a5ff-622f8ed4967b",
-      "name": "Analyze document testinggitejagbd"
-    },
-      {
-      "parameters": {
-        "resource": "document",
-        "modelId": {
-          "__rl": true,
-          "mode": "list",
-          "value": ""
-        },
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.anthropic",
-      "typeVersion": 1,
-      "position": [
-        208,
-        0
-      ],
-      "id": "309c3802-f260-4d9e-a5ff-622f8ed4967b",
-      "name": "Analyze document testinggitejagbd"
+      "name": "dhaya darvasa thodo"
     }
   ],
   "connections": {
@@ -61,7 +42,7 @@
       "main": [
         [
           {
-            "node": "Analyze document oaisndobuas",
+            "node": "dhaya darvasa thodo",
             "type": "main",
             "index": 0
           }
@@ -73,7 +54,7 @@
     "executionOrder": "v1"
   },
   "triggerCount": 0,
-  "versionId": "4cde6fff-3597-40fd-b374-f70ee465fa80",
+  "versionId": "9193471b-9d5c-4d9e-ac0b-82143bdc10d1",
   "owner": {
     "type": "team",
     "teamId": "0Z07DgWuunysmzvT",
