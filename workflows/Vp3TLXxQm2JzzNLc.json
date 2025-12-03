@@ -35,6 +35,25 @@
       ],
       "id": "309c3802-f260-4d9e-a5ff-622f8ed4967b",
       "name": "Analyze document testinggitejagbd"
+    },
+      {
+      "parameters": {
+        "resource": "document",
+        "modelId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.anthropic",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "309c3802-f260-4d9e-a5ff-622f8ed4967b",
+      "name": "Analyze document testinggitejagbd"
     }
   ],
   "connections": {
