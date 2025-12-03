@@ -1,6 +1,6 @@
 {
   "id": "Vp3TLXxQm2JzzNLc",
-  "name": "project123-testing-git",
+  "name": "project123-testing",
   "nodes": [
     {
       "parameters": {
@@ -16,14 +16,45 @@
       "id": "eec4e64c-1f3b-4d6f-8df2-d5937a00089f",
       "name": "Webhook",
       "webhookId": "a007cdcc-8f6d-4fc7-9990-6ccd5350e095"
+    },
+    {
+      "parameters": {
+        "resource": "document",
+        "modelId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.anthropic",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "309c3802-f260-4d9e-a5ff-622f8ed4967b",
+      "name": "Analyze document"
     }
   ],
-  "connections": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Analyze document",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
   "settings": {
     "executionOrder": "v1"
   },
   "triggerCount": 0,
-  "versionId": "681c9b44-8ed9-4730-bd0b-5f27523f2cf4",
+  "versionId": "4cde6fff-3597-40fd-b374-f70ee465fa80",
   "owner": {
     "type": "team",
     "teamId": "0Z07DgWuunysmzvT",
