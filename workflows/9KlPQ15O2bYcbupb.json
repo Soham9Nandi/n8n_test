@@ -1,0 +1,19 @@
+{
+  "id": "9KlPQ15O2bYcbupb",
+  "name": "project_workflow",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "8c4bcf2f-0959-4504-be15-4c3dd7e09796",
+  "owner": {
+    "type": "personal",
+    "projectId": "tZ5pYdG2cuYZp3AN",
+    "projectName": "Jishnu Jishnu <nairjishnu6@gmail.com>",
+    "personalEmail": "nairjishnu6@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}

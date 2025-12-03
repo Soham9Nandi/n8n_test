@@ -1,0 +1,58 @@
+{
+  "id": "xm2V70baHI8yuZtD",
+  "name": "workflow 123",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a2986050-1c4a-41cc-911d-1025876044ea",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (const item of $input.all()) {\n  item.json.myNewField = 1;\n}\n\nreturn $input.all();"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "bc3b434b-ccae-48ae-b8ee-322568ac2cbc",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "triggerCount": 0,
+  "versionId": "8bb4ff97-a11a-4fa4-9697-90104d3382f9",
+  "owner": {
+    "type": "team",
+    "teamId": "0Z07DgWuunysmzvT",
+    "teamName": "skorcard"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

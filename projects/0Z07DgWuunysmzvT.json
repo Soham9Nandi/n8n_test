@@ -1,0 +1,16 @@
+{
+  "id": "0Z07DgWuunysmzvT",
+  "name": "skorcard",
+  "icon": {
+    "type": "icon",
+    "value": "layers"
+  },
+  "description": "skorcard app",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "0Z07DgWuunysmzvT",
+    "teamName": "skorcard"
+  },
+  "variableStubs": []
+}

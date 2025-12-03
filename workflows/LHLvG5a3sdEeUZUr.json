@@ -1,0 +1,31 @@
+{
+  "id": "LHLvG5a3sdEeUZUr",
+  "name": "test123",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "50ed50c0-f928-45f6-bddd-9e8e706237fc",
+      "name": "When clicking ‘Execute workflow’"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "25b9ff88-9d75-47d2-9ffe-cfe5092c59d9",
+  "owner": {
+    "type": "personal",
+    "projectId": "tZ5pYdG2cuYZp3AN",
+    "projectName": "Jishnu Jishnu <nairjishnu6@gmail.com>",
+    "personalEmail": "nairjishnu6@gmail.com"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}

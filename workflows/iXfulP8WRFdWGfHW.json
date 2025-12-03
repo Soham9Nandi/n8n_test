@@ -1,0 +1,18 @@
+{
+  "id": "iXfulP8WRFdWGfHW",
+  "name": "project 1",
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "triggerCount": 0,
+  "versionId": "d004994c-197f-4213-9504-9de1e160e4ae",
+  "owner": {
+    "type": "team",
+    "teamId": "0Z07DgWuunysmzvT",
+    "teamName": "skorcard"
+  },
+  "parentFolderId": null,
+  "isArchived": true
+}
