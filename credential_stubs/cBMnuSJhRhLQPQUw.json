@@ -1,0 +1,14 @@
+{
+  "id": "cBMnuSJhRhLQPQUw",
+  "name": "Action Network account",
+  "type": "actionNetworkApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "0Z07DgWuunysmzvT",
+    "teamName": "skorcard"
+  },
+  "isGlobal": false
+}
