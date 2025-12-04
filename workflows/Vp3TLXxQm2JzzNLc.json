@@ -35,6 +35,27 @@
       ],
       "id": "309c3802-f260-4d9e-a5ff-622f8ed4967b",
       "name": "dhaya darvasa thodo"
+    },
+    {
+      "parameters": {
+        "resource": "alerts",
+        "operation": "get",
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-base.metabase",
+      "typeVersion": 1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "e539977b-de08-4062-9a24-cefd5686b6ad",
+      "name": "Get an alert",
+      "credentials": {
+        "metabaseApi": {
+          "id": "XrkwxoNvahgh3O63",
+          "name": "Metabase account"
+        }
+      }
     }
   ],
   "connections": {
@@ -48,13 +69,24 @@
           }
         ]
       ]
+    },
+    "dhaya darvasa thodo": {
+      "main": [
+        [
+          {
+            "node": "Get an alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
     "executionOrder": "v1"
   },
   "triggerCount": 0,
-  "versionId": "4fee2f82-5cf4-4a3f-a92a-7d5458fd4675",
+  "versionId": "fe749464-ff99-44c7-808e-0ac026c051a5",
   "owner": {
     "type": "team",
     "teamId": "0Z07DgWuunysmzvT",

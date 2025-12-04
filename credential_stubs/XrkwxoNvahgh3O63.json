@@ -1,0 +1,16 @@
+{
+  "id": "XrkwxoNvahgh3O63",
+  "name": "Metabase account",
+  "type": "metabaseApi",
+  "data": {
+    "url": "",
+    "username": "",
+    "password": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "0Z07DgWuunysmzvT",
+    "teamName": "skorcard"
+  },
+  "isGlobal": false
+}
