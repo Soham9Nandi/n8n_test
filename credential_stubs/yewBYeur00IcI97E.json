@@ -1,0 +1,17 @@
+{
+  "id": "yewBYeur00IcI97E",
+  "name": "Metabase account 2",
+  "type": "metabaseApi",
+  "data": {
+    "url": "",
+    "username": "",
+    "password": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "iLCPQ8CrmvZRlOTk",
+    "projectName": "Soham Nandi <soham.skor@gmail.com>",
+    "personalEmail": "soham.skor@gmail.com"
+  },
+  "isGlobal": false
+}
