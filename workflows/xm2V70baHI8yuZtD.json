@@ -24,7 +24,7 @@
         0
       ],
       "id": "bc3b434b-ccae-48ae-b8ee-322568ac2cbc",
-      "name": "Code in JavaScript"
+      "name": "cde2"
     }
   ],
   "connections": {
@@ -32,7 +32,7 @@
       "main": [
         [
           {
-            "node": "Code in JavaScript",
+            "node": "cde2",
             "type": "main",
             "index": 0
           }
@@ -47,7 +47,7 @@
     "availableInMCP": false
   },
   "triggerCount": 0,
-  "versionId": "8bb4ff97-a11a-4fa4-9697-90104d3382f9",
+  "versionId": "3ab3c1f8-0552-4d31-9fce-46514d501d9b",
   "owner": {
     "type": "team",
     "teamId": "0Z07DgWuunysmzvT",
