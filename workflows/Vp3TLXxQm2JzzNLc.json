@@ -49,7 +49,7 @@
         0
       ],
       "id": "e539977b-de08-4062-9a24-cefd5686b6ad",
-      "name": "Get an alert",
+      "name": "alertsa agcvd",
       "credentials": {
         "metabaseApi": {
           "id": "XrkwxoNvahgh3O63",
@@ -74,7 +74,7 @@
       "main": [
         [
           {
-            "node": "Get an alert",
+            "node": "alertsa agcvd",
             "type": "main",
             "index": 0
           }
@@ -85,8 +85,8 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "triggerCount": 0,
-  "versionId": "fe749464-ff99-44c7-808e-0ac026c051a5",
+  "triggerCount": 1,
+  "versionId": "b55cf0d0-60fc-4546-b66a-15055897c95e",
   "owner": {
     "type": "team",
     "teamId": "0Z07DgWuunysmzvT",
